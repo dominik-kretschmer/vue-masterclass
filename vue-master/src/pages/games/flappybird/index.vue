@@ -1,10 +1,7 @@
+
 <script setup lang="ts">
 </script>
 
 <template>
-  <h2>Games</h2>
-  <ul>
-
-  </ul>
+  <h1>flappybird</h1>
 </template>
-

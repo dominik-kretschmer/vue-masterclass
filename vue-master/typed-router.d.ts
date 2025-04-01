@@ -20,10 +20,11 @@ declare module 'vue-router/auto-routes' {
   export interface RouteNamedMap {
     '/': RouteRecordInfo<'/', '/', Record<never, never>, Record<never, never>>,
     '/[...catchAll]': RouteRecordInfo<'/[...catchAll]', '/:catchAll(.*)', { catchAll: ParamValue<true> }, { catchAll: ParamValue<false> }>,
+    '/about': RouteRecordInfo<'/about', '/about', Record<never, never>, Record<never, never>>,
+    '/anfragen': RouteRecordInfo<'/anfragen', '/anfragen', Record<never, never>, Record<never, never>>,
     '/games/': RouteRecordInfo<'/games/', '/games', Record<never, never>, Record<never, never>>,
-    '/games/download/': RouteRecordInfo<'/games/download/', '/games/download', Record<never, never>, Record<never, never>>,
-    '/games/download/flappyBird': RouteRecordInfo<'/games/download/flappyBird', '/games/download/flappyBird', Record<never, never>, Record<never, never>>,
-    '/games/highscores/': RouteRecordInfo<'/games/highscores/', '/games/highscores', Record<never, never>, Record<never, never>>,
-    '/games/highscores/flappyBird': RouteRecordInfo<'/games/highscores/flappyBird', '/games/highscores/flappyBird', Record<never, never>, Record<never, never>>,
+    '/games/flappybird/': RouteRecordInfo<'/games/flappybird/', '/games/flappybird', Record<never, never>, Record<never, never>>,
+    '/games/flappybird/download/': RouteRecordInfo<'/games/flappybird/download/', '/games/flappybird/download', Record<never, never>, Record<never, never>>,
+    '/games/flappybird/highscore/': RouteRecordInfo<'/games/flappybird/highscore/', '/games/flappybird/highscore', Record<never, never>, Record<never, never>>,
   }
 }
