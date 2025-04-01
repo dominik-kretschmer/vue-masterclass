@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2bc44d79-5e9d-49c0-a674-ca3185c8d979" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console/CreateGame.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/nav.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/about.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/games/flappybird/download/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/games/flappybird/highscore/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/games/flappybird/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/[...catchAll].vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/[...catchAll].vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/games/download/flappyBird.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/games/download/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/anfragen.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/games/highscores/flappyBird.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/games/highscores/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/games/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/games/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/typed-router.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/typed-router.d.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp2\php\php.exe" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2v7v2YvVj8fXtnQOM8HGhF9hDdh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/neues-feature",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.format.executor": "Run",
+    "npm.lint.executor": "Run",
+    "ts.external.directory.path": "C:\\Users\\DominikKretschmerCon\\OneDrive - Staatliche Berufsschule Lauingen\\Dokumente\\arbeit\\convis\\project\\javascript\\coolesVueStuff\\node_vue\\vue-master\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DominikKretschmerCon\OneDrive - Staatliche Berufsschule Lauingen\Dokumente\arbeit\convis\project\javascript\coolesVueStuff\node_vue\vue-master\src\pages\games\flappybird" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.format">
+    <configuration name="format" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="format" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.format" />
+        <item itemvalue="npm.lint" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PS-241.14494.237" />
+        <option value="bundled-php-predefined-ba97393d7c68-8f0632a2a215-com.jetbrains.php.sharedIndexes-PS-241.14494.237" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2bc44d79-5e9d-49c0-a674-ca3185c8d979" name="Changes" comment="" />
+      <created>1743508720526</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743508720526</updated>
+      <workItem from="1743508721833" duration="5854000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
