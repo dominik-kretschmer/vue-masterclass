@@ -1,7 +1,2 @@
-interface ImportMetaEnv {
-  readonly BASE_URL: string
-}
-
-interface ImportMeta {
-  readonly env: ImportMetaEnv
-}
+///<reference types="vite/client"/>
+///<reference types="unplugin-vue-router/client"/>

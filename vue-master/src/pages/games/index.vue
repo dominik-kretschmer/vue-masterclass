@@ -2,7 +2,6 @@
 </script>
 <template>
   <div>
-    <h1>ProjectsView</h1>
-    <RouterLink to="/">Home</RouterLink>
+    <h1>Game Overview</h1>
   </div>
 </template>

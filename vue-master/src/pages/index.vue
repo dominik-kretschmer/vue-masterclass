@@ -2,6 +2,6 @@
 <template>
   <div>
     <h1>Home</h1>
-    <RouterLink to="/projects">Projects</RouterLink>
+    <RouterLink to="/games">All Games </RouterLink>
   </div>
 </template>
