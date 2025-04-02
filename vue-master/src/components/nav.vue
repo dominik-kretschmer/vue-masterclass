@@ -1,12 +1,8 @@
 <template>
   <nav class="sticky-top">
-    <div >
-      <button @click="goHome">
-        ⬅ Home
-      </button>
-      <h1 >
-        Extrem gute Spiele
-      </h1>
+    <div>
+      <button @click="goHome">⬅ Home</button>
+      <h1>Extrem gute Spiele</h1>
     </div>
   </nav>
 </template>

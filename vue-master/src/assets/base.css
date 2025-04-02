@@ -1,0 +1,55 @@
+.highscore-wrapper {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: rgba(75, 13, 161, 0.75);
+    border-radius: 1rem;
+    box-shadow: 0 0 10px #00000055;
+    color: #e5e7eb;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.highscore-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #8052eb;
+}
+
+.highscore-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.highscore-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    background: #1f2937;
+    border-radius: 0.5rem;
+    transition: background 0.2s ease;
+}
+
+.highscore-item:hover {
+    background: #374151;
+}
+
+.highscore-rank {
+    font-weight: bold;
+    color: #facc15;
+    width: 3rem;
+}
+
+.highscore-name {
+    flex: 1;
+    margin-left: 1rem;
+}
+
+.highscore-score {
+    font-family: monospace;
+    font-size: 1.2rem;
+    color: #10b981;
+}
