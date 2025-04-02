@@ -1,10 +1,8 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
+import AppSidebar from "@/components/AppSidebar.vue";
+</script>
 
 <template>
-  <h2>Home</h2>
-  <ul>
-    <li><RouterLink to="/about">About</RouterLink></li>
-    <li><RouterLink to="/games">Games</RouterLink></li>
-    <li><RouterLink to="/anfragen">Anfragen</RouterLink></li>
-  </ul>
+
 </template>
