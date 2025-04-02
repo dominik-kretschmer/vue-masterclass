@@ -1,3 +1,4 @@
+
 .highscore-wrapper {
     max-width: 600px;
     margin: 2rem auto;
@@ -52,4 +53,24 @@
     font-family: monospace;
     font-size: 1.2rem;
     color: #10b981;
+}
+.sticky-top,
+.sticky-bottom {
+    position: sticky;
+    z-index: 1000;
+    padding: 1rem;
+    background: linear-gradient(to right, #5b21b6, #7c3aed); /* dunkles Lila */
+    color: #f3e8ff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(6px);
+}
+
+.sticky-top {
+    top: 0;
+    border-bottom: 1px solid rgba(243, 232, 255, 0.15);
+}
+
+.sticky-bottom {
+    bottom: 0;
+    border-top: 1px solid rgba(243, 232, 255, 0.15);
 }

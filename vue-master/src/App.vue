@@ -1,18 +1,22 @@
 <template style="width: 100%; height: 100%">
+
   <div>
-    <TopNav />
-    <div>
+    <SidebarProvider>
+      <AppSidebar/>
       <main>
-        <router-view />
+        <sidebar-trigger/>
+        <div class="content pl-64 pr-8 pt-8">
+          <RouterView />
+        </div>
+
       </main>
-    </div>
-    <FooterBar />
+    </SidebarProvider>
   </div>
 </template>
 
 <script setup lang="ts">
-import TopNav from "./components/nav.vue";
-import FooterBar from "./components/footer.vue";
+import AppSidebar from '@/components/AppSidebar.vue'
+import {SidebarProvider, SidebarTrigger} from '@/components/ui/sidebar'
 </script>
 <style>
 @import "@/assets/main.css";

@@ -1,16 +1,19 @@
-import { fileURLToPath, URL } from 'node:url'
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+import {fileURLToPath, URL} from 'node:url'
 import vueDevTools from 'vite-plugin-vue-devtools'
 import VueRouter from 'unplugin-vue-router/vite'
 import fs from 'fs'
-import path from 'path'
+import path from 'node:path'
+import tailwindcss from '@tailwindcss/vite'
+import vue from '@vitejs/plugin-vue'
+import { defineConfig } from 'vite'
 
 export default defineConfig({
+
     plugins: [
         VueRouter(),
         vue(),
         vueDevTools(),
+        tailwindcss(),
     ],
     resolve: {
         alias: {
