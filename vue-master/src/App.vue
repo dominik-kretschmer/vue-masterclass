@@ -1,14 +1,20 @@
-<template>
-  <div class="min-h-screen bg-gray-950 text-white flex flex-col">
-    <TopNav />
-    <main class="flex-1 flex items-center justify-center p-6">
-      <router-view />
-    </main>
-    <FooterBar />
+<template style="width: 100%; height: 100%">
+  <div>
+    <TopNav/>
+    <div>
+      <main>
+        <router-view/>
+      </main>
+    </div>
+    <FooterBar/>
   </div>
 </template>
 
 <script setup lang="ts">
-import TopNav from './components/nav.vue'
-import FooterBar from './components/footer.vue'
+import TopNav from "./components/nav.vue";
+import FooterBar from "./components/footer.vue";
 </script>
+<style>
+@import "@/assets/main.css";
+
+</style>

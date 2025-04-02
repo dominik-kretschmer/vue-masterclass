@@ -5,27 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bc44d79-5e9d-49c0-a674-ca3185c8d979" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/CreateGame.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/nav.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/about.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/games/flappybird/download/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/games/flappybird/highscore/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/games/flappybird/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/webResources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/[...catchAll].vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/[...catchAll].vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/games/download/flappyBird.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/games/download/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/anfragen.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/games/highscores/flappyBird.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/games/highscores/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/anfragen.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/anfragen.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/games/flappybird/download/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/games/flappybird/download/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/games/flappybird/highscore/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/games/flappybird/highscore/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/games/flappybird/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/games/flappybird/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/games/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/games/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/typed-router.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/typed-router.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +34,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp2\php\php.exe" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2v7v2YvVj8fXtnQOM8HGhF9hDdh" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -50,25 +45,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/neues-feature",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.format.executor": "Run",
-    "npm.lint.executor": "Run",
-    "ts.external.directory.path": "C:\\Users\\DominikKretschmerCon\\OneDrive - Staatliche Berufsschule Lauingen\\Dokumente\\arbeit\\convis\\project\\javascript\\coolesVueStuff\\node_vue\\vue-master\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/neues-feature&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.format.executor&quot;: &quot;Run&quot;,
+    &quot;npm.lint.executor&quot;: &quot;Run&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\DominikKretschmerCon\\OneDrive - Staatliche Berufsschule Lauingen\\Dokumente\\arbeit\\convis\\project\\javascript\\coolesVueStuff\\node_vue\\vue-master\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DominikKretschmerCon\OneDrive - Staatliche Berufsschule Lauingen\Dokumente\arbeit\convis\project\javascript\coolesVueStuff\node_vue\vue-master\src\pages\games\flappybird" />
@@ -118,7 +113,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743508720526</updated>
-      <workItem from="1743508721833" duration="5854000" />
+      <workItem from="1743508721833" duration="6929000" />
+      <workItem from="1743572479603" duration="4184000" />
     </task>
     <servers />
   </component>

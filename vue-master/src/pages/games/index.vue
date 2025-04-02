@@ -1,10 +1,6 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <h2>Games</h2>
-  <ul>
-
-  </ul>
+  <ul><RouterLink to="games/flappybird">Flappybird</RouterLink></ul>
 </template>
-
