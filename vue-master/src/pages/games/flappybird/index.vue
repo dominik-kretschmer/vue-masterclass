@@ -1,7 +1,9 @@
-
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <h1>flappybird</h1>
+  <h2>flappybird</h2>
+  <ul>
+    <li><RouterLink to="flappybird/download">Download</RouterLink></li>
+    <li><RouterLink to="flappybird/highscore">highscore</RouterLink></li>
+  </ul>
 </template>
