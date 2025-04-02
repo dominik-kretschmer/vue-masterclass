@@ -1,12 +1,12 @@
 <template style="width: 100%; height: 100%">
   <div>
-    <TopNav/>
+    <TopNav />
     <div>
       <main>
-        <router-view/>
+        <router-view />
       </main>
     </div>
-    <FooterBar/>
+    <FooterBar />
   </div>
 </template>
 
@@ -16,5 +16,4 @@ import FooterBar from "./components/footer.vue";
 </script>
 <style>
 @import "@/assets/main.css";
-
 </style>

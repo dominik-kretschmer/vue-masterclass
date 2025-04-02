@@ -5,22 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bc44d79-5e9d-49c0-a674-ca3185c8d979" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/webResources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cert/cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cert/key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composables/useHighscores.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composables/useJwt.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/nav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/about.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/anfragen.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/anfragen.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/games/flappybird/download/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/games/flappybird/download/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/games/flappybird/highscore/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/games/flappybird/highscore/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/games/flappybird/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/games/flappybird/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/games/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/games/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +34,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp2\php\php.exe" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -60,6 +63,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;npm.format.executor&quot;: &quot;Run&quot;,
     &quot;npm.lint.executor&quot;: &quot;Run&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\DominikKretschmerCon\\OneDrive - Staatliche Berufsschule Lauingen\\Dokumente\\arbeit\\convis\\project\\javascript\\coolesVueStuff\\node_vue\\vue-master\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -114,7 +118,8 @@
       <option name="presentableId" value="Default" />
       <updated>1743508720526</updated>
       <workItem from="1743508721833" duration="6929000" />
-      <workItem from="1743572479603" duration="4184000" />
+      <workItem from="1743572479603" duration="13361000" />
+      <workItem from="1743587430002" duration="845000" />
     </task>
     <servers />
   </component>
