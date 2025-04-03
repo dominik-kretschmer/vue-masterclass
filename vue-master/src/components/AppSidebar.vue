@@ -1,17 +1,18 @@
 <script setup lang="ts">
-import {Home, Inbox, Search } from "lucide-vue-next"
+import { Home, Inbox, Search } from "lucide-vue-next";
 import {
   Sidebar,
-  SidebarContent, SidebarFooter,
+  SidebarContent,
+  SidebarFooter,
   SidebarGroup,
   SidebarGroupContent,
-  SidebarGroupLabel, SidebarHeader,
+  SidebarGroupLabel,
+  SidebarHeader,
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@/components/ui/sidebar"
+} from "@/components/ui/sidebar";
 const items = [
-
   {
     title: "Home",
     url: "/",
@@ -46,7 +47,7 @@ const items = [
               <SidebarMenuButton asChild>
                 <a :href="item.url">
                   <component :is="item.icon" />
-                  <span>{{item.title}}</span>
+                  <span>{{ item.title }}</span>
                 </a>
               </SidebarMenuButton>
             </SidebarMenuItem>

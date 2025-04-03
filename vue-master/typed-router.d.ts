@@ -26,5 +26,8 @@ declare module 'vue-router/auto-routes' {
     '/games/flappybird/': RouteRecordInfo<'/games/flappybird/', '/games/flappybird', Record<never, never>, Record<never, never>>,
     '/games/flappybird/download/': RouteRecordInfo<'/games/flappybird/download/', '/games/flappybird/download', Record<never, never>, Record<never, never>>,
     '/games/flappybird/highscore/': RouteRecordInfo<'/games/flappybird/highscore/', '/games/flappybird/highscore', Record<never, never>, Record<never, never>>,
+    '/games/tetris/': RouteRecordInfo<'/games/tetris/', '/games/tetris', Record<never, never>, Record<never, never>>,
+    '/games/tetris/download/': RouteRecordInfo<'/games/tetris/download/', '/games/tetris/download', Record<never, never>, Record<never, never>>,
+    '/games/tetris/highscore/': RouteRecordInfo<'/games/tetris/highscore/', '/games/tetris/highscore', Record<never, never>, Record<never, never>>,
   }
 }

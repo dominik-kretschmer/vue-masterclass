@@ -1,14 +1,13 @@
-import {fileURLToPath, URL} from 'node:url'
+import { fileURLToPath, URL } from 'node:url'
 import vueDevTools from 'vite-plugin-vue-devtools'
 import VueRouter from 'unplugin-vue-router/vite'
 import fs from 'fs'
 import path from 'node:path'
-import tailwindcss from '@tailwindcss/vite'
 import vue from '@vitejs/plugin-vue'
 import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-
     plugins: [
         VueRouter(),
         vue(),
@@ -27,5 +26,13 @@ export default defineConfig({
         },
         port: 5173,
         host: 'localhost',
+
+        proxy: {
+            '/auth': {
+                target: 'https://localhost',
+                changeOrigin: true,
+                secure: false,
+            },
+        },
     },
 })

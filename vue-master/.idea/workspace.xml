@@ -5,88 +5,101 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bc44d79-5e9d-49c0-a674-ca3185c8d979" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/flappybird.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AppSidebar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/button/Button.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/button/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/form/FormControl.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/form/FormDescription.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/form/FormItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/form/FormLabel.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/form/FormMessage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/form/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/form/injectionKeys.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/form/useFormField.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/input/Input.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/input/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/label/Label.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/label/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/separator/Separator.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/separator/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sheet/Sheet.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sheet/SheetClose.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sheet/SheetContent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sheet/SheetDescription.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sheet/SheetFooter.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sheet/SheetHeader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sheet/SheetOverlay.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sheet/SheetTitle.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sheet/SheetTrigger.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sheet/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/Sidebar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarContent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarFooter.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarGroup.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarGroupAction.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarGroupContent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarGroupLabel.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarHeader.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarInput.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarInset.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuAction.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuBadge.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuButton.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuButtonChild.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuSkeleton.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuSub.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuSubButton.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuSubItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarProvider.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarRail.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarSeparator.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarTrigger.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/sidebar/utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/skeleton/Skeleton.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/skeleton/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/tooltip/Tooltip.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/tooltip/TooltipContent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/tooltip/TooltipProvider.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/tooltip/TooltipTrigger.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/tooltip/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supabase/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supabase/config.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/supabase/migrations/20250403135027_Games-schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppSidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppSidebar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GameDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GameDetail.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/IconCommunity.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/IconCommunity.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/IconDocumentation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/IconDocumentation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/IconEcosystem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/IconEcosystem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/IconSupport.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/IconSupport.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/IconTooling.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/IconTooling.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/nav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/button/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/button/Button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/button/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/button/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/form/FormControl.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/form/FormControl.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/form/FormDescription.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/form/FormDescription.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/form/FormItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/form/FormItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/form/FormLabel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/form/FormLabel.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/form/FormMessage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/form/FormMessage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/form/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/form/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/form/injectionKeys.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/form/injectionKeys.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/form/useFormField.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/form/useFormField.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/input/Input.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/input/Input.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/input/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/input/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/label/Label.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/label/Label.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/label/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/label/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/separator/Separator.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/separator/Separator.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/separator/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/separator/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sheet/Sheet.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sheet/Sheet.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sheet/SheetClose.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sheet/SheetClose.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sheet/SheetContent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sheet/SheetContent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sheet/SheetDescription.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sheet/SheetDescription.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sheet/SheetFooter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sheet/SheetFooter.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sheet/SheetHeader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sheet/SheetHeader.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sheet/SheetOverlay.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sheet/SheetOverlay.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sheet/SheetTitle.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sheet/SheetTitle.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sheet/SheetTrigger.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sheet/SheetTrigger.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sheet/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sheet/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/Sidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/Sidebar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarContent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarContent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarFooter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarFooter.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarGroup.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarGroup.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarGroupAction.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarGroupAction.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarGroupContent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarGroupContent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarGroupLabel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarGroupLabel.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarHeader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarHeader.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarInput.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarInput.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarInset.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarInset.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenu.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuAction.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuAction.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuBadge.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuBadge.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuButton.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuButtonChild.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuButtonChild.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuSkeleton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuSkeleton.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuSub.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuSub.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuSubButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuSubButton.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuSubItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarMenuSubItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarProvider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarProvider.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarRail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarRail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarSeparator.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarSeparator.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarTrigger.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/SidebarTrigger.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/skeleton/Skeleton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/skeleton/Skeleton.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/skeleton/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/skeleton/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/tooltip/Tooltip.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/tooltip/Tooltip.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/tooltip/TooltipContent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/tooltip/TooltipContent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/tooltip/TooltipProvider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/tooltip/TooltipProvider.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/tooltip/TooltipTrigger.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/tooltip/TooltipTrigger.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/tooltip/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/tooltip/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composables/useHighscores.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/composables/useHighscores.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composables/useJwt.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/composables/useJwt.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/supabaseClient.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/supabaseClient.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/[...catchAll].vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/[...catchAll].vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/about.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/anfragen.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/anfragen.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/games/flappybird/download/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/games/flappybird/download/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/games/flappybird/highscore/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/games/flappybird/highscore/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/games/flappybird/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/games/flappybird/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/games/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/games/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/games/tetris/download/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/games/tetris/download/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/games/tetris/highscore/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/games/tetris/highscore/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/games/tetris/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/games/tetris/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,48 +127,83 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/neues-feature&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.format.executor&quot;: &quot;Run&quot;,
-    &quot;npm.lint.executor&quot;: &quot;Run&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\DominikKretschmerCon\\OneDrive - Staatliche Berufsschule Lauingen\\Dokumente\\arbeit\\convis\\project\\javascript\\coolesVueStuff\\node_vue\\vue-master\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/neues-feature",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.db:migrate.executor": "Run",
+    "npm.db:reset.executor": "Run",
+    "npm.format.executor": "Run",
+    "npm.lint.executor": "Run",
+    "npm.supabase:init.executor": "Run",
+    "npm.supabase:link.executor": "Run",
+    "npm.supabase:login.executor": "Run",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2023.2.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DominikKretschmerCon\OneDrive - Staatliche Berufsschule Lauingen\Dokumente\arbeit\convis\project\javascript\coolesVueStuff\node_vue\vue-master\public" />
       <recent name="C:\Users\DominikKretschmerCon\OneDrive - Staatliche Berufsschule Lauingen\Dokumente\arbeit\convis\project\javascript\coolesVueStuff\node_vue\vue-master\src\pages\games\flappybird" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.format">
-    <configuration name="format" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.db:reset">
+    <configuration name="db:migrate" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="format" />
+        <script value="db:migrate" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="db:reset" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="lint" />
+        <script value="db:reset" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="supabase:init" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="supabase:init" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="supabase:link" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="supabase:link" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="supabase:login" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="supabase:login" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -163,8 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.format" />
-        <item itemvalue="npm.lint" />
+        <item itemvalue="npm.db:reset" />
+        <item itemvalue="npm.db:migrate" />
+        <item itemvalue="npm.supabase:link" />
+        <item itemvalue="npm.supabase:login" />
+        <item itemvalue="npm.supabase:init" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +239,11 @@
       <workItem from="1743572479603" duration="13361000" />
       <workItem from="1743587430002" duration="3233000" />
       <workItem from="1743590753951" duration="7228000" />
+      <workItem from="1743663593788" duration="2399000" />
+      <workItem from="1743666939704" duration="106000" />
+      <workItem from="1743667176766" duration="760000" />
+      <workItem from="1743668208027" duration="2278000" />
+      <workItem from="1743670775509" duration="14521000" />
     </task>
     <servers />
   </component>
