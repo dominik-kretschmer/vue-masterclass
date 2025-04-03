@@ -2,12 +2,14 @@
 const games = [
   {
     name: "Flappybird",
-    slug: "flappybird",
     description: "Teste deine Reaktionsgeschwindigkeit in diesem endlosen Arcade-Spiel. Weiche Hindernissen aus und knacke deinen Highscore!",
-    image: "/flappybird.png" ,
   },
-]
+].map(game => ({
+  ...game,
+  slug: game.name.toLowerCase().replace(/\s+/g, '-'),
+}))
 </script>
+
 
 <template>
   <section class="max-w-7xl mx-auto px-6 py-12">
@@ -20,7 +22,7 @@ const games = [
           class="bg-zinc-800 hover:bg-zinc-700 rounded-2xl overflow-hidden shadow-xl transition group"
       >
         <img
-            :src="game.image"
+            :src="`/${game.name}.png`"
             :alt="game.name"
             class="w-full h-64 object-cover group-hover:scale-105 transition duration-300"
         />
