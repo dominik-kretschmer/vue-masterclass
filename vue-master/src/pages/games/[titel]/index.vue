@@ -5,26 +5,25 @@ import { supabase } from "@/lib/supabaseClient.ts";
 import HighscorePanel from "@/components/highscore.vue";
 import InstallPanel from "@/components/install.vue";
 
-const panel = ref<"highscore" | "install" | null>(null);
+type Panel = "install" | "highscore";
 
-const togglePanel = (type: "highscore" | "install") => {
-  panel.value = panel.value === type ? null : type;
-};
-
-const route = useRoute();
+const panel = ref<Panel | null>(null);
 const game = ref(null);
+const route = useRoute();
+
+const togglePanel = (type: Panel) =>
+  (panel.value = panel.value === type ? null : type);
+
+const getTitleFromSlug = (slug: string) =>
+  slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 
 onMounted(async () => {
-  const slug = route.fullPath.split("/").pop();
-  const titel = slug
-    .replace(/-/g, " ")
-    .replace(/\b\w/g, (c) => c.toUpperCase());
-  const { data } = await supabase
-    .from("games")
-    .select("titel, description")
-    .eq("titel", titel);
+  const slug = route.fullPath.split("/").pop() || "";
+  const title = getTitleFromSlug(slug);
 
-  game.value = data?.[0] || null;
+  const { data } = await supabase.from("games").select().eq("titel", title);
+
+  game.value = data?.[0] ?? null;
 });
 </script>
 <template>
@@ -35,7 +34,6 @@ onMounted(async () => {
     <p class="text-purple-100 text-lg leading-relaxed mb-8">
       {{ game.description }}
     </p>
-
     <div class="flex gap-4 mb-6">
       <button
         @click="togglePanel('install')"
@@ -79,10 +77,12 @@ onMounted(async () => {
 .fade-slide-enter-active {
   transition: all 0.6s ease;
 }
+
 .fade-slide-enter-from {
   opacity: 0;
   transform: translateY(-10px);
 }
+
 .fade-slide-leave-to {
   opacity: 0;
   transform: translateY(-10px);
