@@ -23,11 +23,6 @@ declare module 'vue-router/auto-routes' {
     '/about': RouteRecordInfo<'/about', '/about', Record<never, never>, Record<never, never>>,
     '/anfragen': RouteRecordInfo<'/anfragen', '/anfragen', Record<never, never>, Record<never, never>>,
     '/games/': RouteRecordInfo<'/games/', '/games', Record<never, never>, Record<never, never>>,
-    '/games/flappybird/': RouteRecordInfo<'/games/flappybird/', '/games/flappybird', Record<never, never>, Record<never, never>>,
-    '/games/flappybird/download/': RouteRecordInfo<'/games/flappybird/download/', '/games/flappybird/download', Record<never, never>, Record<never, never>>,
-    '/games/flappybird/highscore/': RouteRecordInfo<'/games/flappybird/highscore/', '/games/flappybird/highscore', Record<never, never>, Record<never, never>>,
-    '/games/tetris/': RouteRecordInfo<'/games/tetris/', '/games/tetris', Record<never, never>, Record<never, never>>,
-    '/games/tetris/download/': RouteRecordInfo<'/games/tetris/download/', '/games/tetris/download', Record<never, never>, Record<never, never>>,
-    '/games/tetris/highscore/': RouteRecordInfo<'/games/tetris/highscore/', '/games/tetris/highscore', Record<never, never>, Record<never, never>>,
+    '/games/[titel]/': RouteRecordInfo<'/games/[titel]/', '/games/:titel', { titel: ParamValue<true> }, { titel: ParamValue<false> }>,
   }
 }

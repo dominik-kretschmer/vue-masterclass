@@ -8,7 +8,7 @@ onMounted(async () => {
   const { data } = await supabase.from("games").select();
   games.value = (data || []).map((game) => ({
     ...game,
-    slug: game.titel.toLowerCase().replace(/\s+/g, ""),
+    slug: game.titel.toLowerCase().replace(/\s+/g, "-"),
   }));
 });
 </script>
@@ -22,7 +22,7 @@ onMounted(async () => {
       <RouterLink
         v-for="game in games"
         :key="game.slug"
-        :to="'/games/' + game.slug"
+        :to="{ path: '/games/' + game.slug, state: game }"
         class="bg-zinc-800 hover:bg-zinc-700 rounded-2xl overflow-hidden shadow-xl transition group"
       >
         <img

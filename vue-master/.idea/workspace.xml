@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bc44d79-5e9d-49c0-a674-ca3185c8d979" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/highscore.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/install.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GameDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/games/[titel]/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/games/flappybird/download/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/games/flappybird/highscore/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/highscore/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/games/flappybird/index.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/games/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/games/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/games/tetris/download/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/games/tetris/highscore/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/games/tetris/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/typed-router.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/typed-router.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +71,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DominikKretschmerCon\OneDrive - Staatliche Berufsschule Lauingen\Dokumente\arbeit\convis\project\javascript\coolesVueStuff\vue-masterclass\vue-master\src\components" />
+      <recent name="C:\Users\DominikKretschmerCon\OneDrive - Staatliche Berufsschule Lauingen\Dokumente\arbeit\convis\project\javascript\coolesVueStuff\vue-masterclass\vue-master\src\pages\games\[titel]" />
+      <recent name="C:\Users\DominikKretschmerCon\OneDrive - Staatliche Berufsschule Lauingen\Dokumente\arbeit\convis\project\javascript\coolesVueStuff\vue-masterclass\vue-master\src\pages\games" />
       <recent name="C:\Users\DominikKretschmerCon\OneDrive - Staatliche Berufsschule Lauingen\Dokumente\arbeit\convis\project\javascript\coolesVueStuff\node_vue\vue-master\public" />
       <recent name="C:\Users\DominikKretschmerCon\OneDrive - Staatliche Berufsschule Lauingen\Dokumente\arbeit\convis\project\javascript\coolesVueStuff\node_vue\vue-master\src\pages\games\flappybird" />
     </key>
@@ -151,7 +164,7 @@
       <workItem from="1743667176766" duration="760000" />
       <workItem from="1743668208027" duration="2278000" />
       <workItem from="1743670775509" duration="14733000" />
-      <workItem from="1743745200688" duration="4761000" />
+      <workItem from="1743745200688" duration="11932000" />
     </task>
     <servers />
   </component>

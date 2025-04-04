@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
-import { useHighscores } from "@/composables/useHighscores";
+import { useHighscores } from "@/composables/useHighscores.ts";
 
 const { getTopScores } = useHighscores();
 const scores = ref<{ playerName: string; score: string }[]>([]);
