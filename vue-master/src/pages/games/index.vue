@@ -1,9 +1,16 @@
 <script setup lang="ts">
-import {supabase} from "@/lib/supabaseClient.ts";
-const { data, error } = await supabase
-    .from('games')
-    .select()
-console.log(data )
+import { ref, onMounted } from "vue";
+import { supabase } from "@/lib/supabaseClient.ts";
+
+const games = ref([]);
+
+onMounted(async () => {
+  const { data } = await supabase.from("games").select();
+  games.value = (data || []).map((game) => ({
+    ...game,
+    slug: game.titel.toLowerCase().replace(/\s+/g, ""),
+  }));
+});
 </script>
 
 <template>
@@ -13,13 +20,13 @@ console.log(data )
     </h2>
     <div class="grid gap-10 grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
       <RouterLink
-        v-for="game in data"
+        v-for="game in games"
         :key="game.slug"
         :to="'/games/' + game.slug"
         class="bg-zinc-800 hover:bg-zinc-700 rounded-2xl overflow-hidden shadow-xl transition group"
       >
         <img
-          :src="`/${game.titel}.png`"
+          :src="`/${game.titel.replace(/\s+/g, '')}.png`"
           :alt="game.titel"
           class="w-full h-64 object-cover group-hover:scale-105 transition duration-300"
         />
