@@ -1,17 +1,11 @@
 <script setup lang="ts">
-import { useForm } from "vee-validate";
-import { toTypedSchema } from "@vee-validate/zod";
+import {useForm} from "vee-validate";
+import {toTypedSchema} from "@vee-validate/zod";
 import * as z from "zod";
 
-import { Button } from "@/components/ui/button";
-import {
-  FormControl,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormMessage,
-} from "@/components/ui/form";
-import { Input } from "@/components/ui/input";
+import {Button} from "@/components/ui/button";
+import {FormControl, FormField, FormItem, FormLabel, FormMessage,} from "@/components/ui/form";
+import {Input} from "@/components/ui/input";
 import {supabase} from "@/lib/supabaseClient.ts";
 
 const formSchema = toTypedSchema(
@@ -26,17 +20,19 @@ const form = useForm({
 });
 
 const onSubmit = form.handleSubmit(async (values) => {
-  alert("Form submitted!")
-  const {error} = await supabase
-      .from('inquires')
-      .insert({email: values.email, text: values.anfrage})
-})
 
+  await supabase
+      .from('inquires')
+      .insert([
+        {email: values.email, anfrage: values.anfrage},
+      ])
+      .select()
+});
 </script>
 
 <template>
   <div
-    class="max-w-xl mx-auto mt-10 p-6 bg-zinc-900 rounded-xl shadow-lg text-white"
+      class="max-w-xl mx-auto mt-10 p-6 bg-zinc-900 rounded-xl shadow-lg text-white"
   >
     <h1 class="text-3xl font-bold text-purple-400 mb-6 text-center">
       📩 Anfrage senden
@@ -47,13 +43,13 @@ const onSubmit = form.handleSubmit(async (values) => {
           <FormLabel class="text-purple-200">Email</FormLabel>
           <FormControl>
             <Input
-              type="text"
-              placeholder="z. B. max@example.com"
-              v-bind="componentField"
-              class="bg-zinc-800 text-white border border-zinc-700 focus:border-purple-500"
+                type="text"
+                placeholder="z. B. max@example.com"
+                v-bind="componentField"
+                class="bg-zinc-800 text-white border border-zinc-700 focus:border-purple-500"
             />
           </FormControl>
-          <FormMessage />
+          <FormMessage/>
         </FormItem>
       </FormField>
 
@@ -62,19 +58,19 @@ const onSubmit = form.handleSubmit(async (values) => {
           <FormLabel class="text-purple-200">Anfrage</FormLabel>
           <FormControl>
             <Input
-              type="text"
-              placeholder="Deine Nachricht"
-              v-bind="componentField"
-              class="bg-zinc-800 text-white border border-zinc-700 focus:border-purple-500"
+                type="text"
+                placeholder="Deine Nachricht"
+                v-bind="componentField"
+                class="bg-zinc-800 text-white border border-zinc-700 focus:border-purple-500"
             />
           </FormControl>
-          <FormMessage />
+          <FormMessage/>
         </FormItem>
       </FormField>
 
       <Button
-        type="submit"
-        class="w-full bg-gradient-to-br from-purple-500 to-blue-600 hover:bg-purple-700 text-white font-semibold"
+          type="submit"
+          class="w-full bg-gradient-to-br from-purple-500 to-blue-600 hover:bg-purple-700 text-white font-semibold"
       >
         Senden
       </Button>
