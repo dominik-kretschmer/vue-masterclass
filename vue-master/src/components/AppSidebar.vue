@@ -1,17 +1,18 @@
 <script setup lang="ts">
-import { Home, Inbox, Search } from "lucide-vue-next";
+import { Home, Inbox, Search, Settings } from "lucide-vue-next";
 import {
   Sidebar,
   SidebarContent,
-  SidebarFooter,
   SidebarGroup,
   SidebarGroupContent,
   SidebarGroupLabel,
-  SidebarHeader,
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
+  SidebarRail,
+  useSidebar,
 } from "@/components/ui/sidebar";
+
 const items = [
   {
     title: "Home",
@@ -26,14 +27,15 @@ const items = [
   {
     title: "About",
     url: "/about",
-    icon: Inbox,
+    icon: Settings,
   },
   {
-    title: "anfragen",
+    title: "Anfragen",
     url: "/anfragen",
     icon: Inbox,
   },
 ];
+const { toggleSidebar } = useSidebar();
 </script>
 
 <template>
@@ -54,6 +56,8 @@ const items = [
           </SidebarMenu>
         </SidebarGroupContent>
       </SidebarGroup>
+      <button @click="toggleSidebar">☰</button>
     </SidebarContent>
+    <SidebarRail />
   </Sidebar>
 </template>

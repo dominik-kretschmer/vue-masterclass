@@ -10,27 +10,35 @@ type Panel = "install" | "highscore";
 const panel = ref<Panel | null>(null);
 const game = ref(null);
 const route = useRoute();
+const imageUrl = ref("");
+
+onMounted(async () => {
+  const slug = route.fullPath.split("/").pop() || "";
+  const title = getTitleFromSlug(slug);
+  const { data } = await supabase.from("games").select().eq("titel", title);
+
+  game.value = data?.[0] ?? null;
+  imageUrl.value = game.value?.titel?.replace(/\s+/g, "") + ".png";
+});
 
 const togglePanel = (type: Panel) =>
   (panel.value = panel.value === type ? null : type);
 
 const getTitleFromSlug = (slug: string) =>
   slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
-
-onMounted(async () => {
-  const slug = route.fullPath.split("/").pop() || "";
-  const title = getTitleFromSlug(slug);
-
-  const { data } = await supabase.from("games").select().eq("titel", title);
-
-  game.value = data?.[0] ?? null;
-});
 </script>
 <template>
   <section v-if="game" class="max-w-4xl mx-auto px-6 py-12">
     <h1 class="text-4xl font-bold text-purple-400 mb-6">
       {{ game.titel }}
     </h1>
+    <img
+      v-if="imageUrl"
+      :src="`/${imageUrl}`"
+      alt="Titelbild"
+      class="rounded-2xl shadow-lg w-full max-h-96 object-cover mb-8"
+    />
+
     <p class="text-purple-100 text-lg leading-relaxed mb-8">
       {{ game.description }}
     </p>
@@ -73,18 +81,3 @@ onMounted(async () => {
     </Transition>
   </section>
 </template>
-<style scoped>
-.fade-slide-enter-active {
-  transition: all 0.6s ease;
-}
-
-.fade-slide-enter-from {
-  opacity: 0;
-  transform: translateY(-10px);
-}
-
-.fade-slide-leave-to {
-  opacity: 0;
-  transform: translateY(-10px);
-}
-</style>

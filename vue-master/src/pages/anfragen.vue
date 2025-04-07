@@ -12,20 +12,26 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
+import {supabase} from "@/lib/supabaseClient.ts";
 
 const formSchema = toTypedSchema(
-  z.object({
-    username: z.string().min(2).max(50),
-  }),
+    z.object({
+      email: z.string().email(),
+      anfrage: z.string().min(1),
+    }),
 );
 
 const form = useForm({
   validationSchema: formSchema,
 });
 
-const onSubmit = form.handleSubmit((values) => {
-  console.log("Form submitted!", values);
-});
+const onSubmit = form.handleSubmit(async (values) => {
+  alert("Form submitted!")
+  const {error} = await supabase
+      .from('inquires')
+      .insert({email: values.email, text: values.anfrage})
+})
+
 </script>
 
 <template>
@@ -68,7 +74,7 @@ const onSubmit = form.handleSubmit((values) => {
 
       <Button
         type="submit"
-        class="w-full bg-purple-600 hover:bg-purple-700 text-white font-semibold"
+        class="w-full bg-gradient-to-br from-purple-500 to-blue-600 hover:bg-purple-700 text-white font-semibold"
       >
         Senden
       </Button>
