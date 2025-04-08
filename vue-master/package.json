@@ -14,9 +14,8 @@
     "supabase:init": "supabase init",
     "supabase:login": "supabase login",
     "supabase:link": "cross-env supabase link --project-ref=$SUPABASE_REF",
-    "db:migrate":  "supabase migration new Games-schema",
-    "db:reset":  "supabase db reset --linked"
-
+    "db:migrate": "supabase migration new ",
+    "db:reset": "supabase db reset --linked"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.4",
@@ -57,7 +56,7 @@
     "tailwindcss-animate": "^1.0.7",
     "typescript": "~5.8.0",
     "unplugin-vue-router": "^0.12.0",
-    "vite": "^6.2.1",
+    "vite": "6.2.5",
     "vite-plugin-vue-devtools": "^7.7.2",
     "vue-tsc": "^2.2.8"
   }

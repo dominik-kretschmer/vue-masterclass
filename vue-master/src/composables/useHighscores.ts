@@ -18,7 +18,7 @@ const getTopScores = async () => {
     return [];
   }
 
-  const result = await Promise.all(
+  return await Promise.all(
     entries.map(async (scoreItem: any) => {
       const playerRes = await axios.get(
         import.meta.env.VITE_API_BASE_URL + scoreItem.player,
@@ -32,9 +32,6 @@ const getTopScores = async () => {
       };
     }),
   );
-
-  console.log("MAPPED result:", result);
-  return result;
 };
 
 export const useHighscores = () => {
